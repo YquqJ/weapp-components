@@ -1,0 +1,19 @@
+/* components/star-item/index.wxss */
+
+.star-item {
+  font-size: 0;
+}
+
+.star-box {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 6rpx;
+  width: 36rpx;
+  height: 36rpx;
+  font-size: 0;
+}
+
+.star-img {
+  width: 100%;
+  height: 100%;
+}

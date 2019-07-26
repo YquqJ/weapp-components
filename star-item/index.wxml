@@ -1,0 +1,7 @@
+<!--components/star-item/index.wxml-->
+<!-- 评星栏 -->
+<view class="star-item">
+  <view class="star-box" wx:for="{{starArray}}" wx:key="{{index}}" style="{{starStyle}}">
+    <image src="./images/{{stars>=(index+1)?'':'n-'}}star.png" mode="scaleToFill" class="star-img" />
+  </view>
+</view>
